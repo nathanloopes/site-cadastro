@@ -173,7 +173,7 @@ body {
     color: #fff;
 }
 
-@media screen and ( max-width: 1330px) {
+@media screen and ( max-width: 1000px) {
     .form-image {
         display:none;
     }
@@ -186,9 +186,9 @@ body {
 }
 
 
-@media screen and (max-width: 1064px) {
+@media screen and (max-width: 800px) {
     .container {
-        width: 50%;
+        width: 78%;
         height: auto;
       }
       .inputgroups {
@@ -207,5 +207,12 @@ body {
       .gender-input {
         margin-top: 0.5rem;
       }
-      
+      .input-box {
+        flex-direction: column;
+        
+        flex-wrap:nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+      }
+      }
 }
