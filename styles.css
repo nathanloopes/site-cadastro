@@ -173,7 +173,7 @@ body {
     color: #fff;
 }
 
-@media screen and ( max-width: 100px) {
+@media screen and ( max-width: 1000px) {
     .form-image {
         display:none;
     }
@@ -186,7 +186,7 @@ body {
 }
 
 
-@media screen and (max-width: 50px) {
+@media screen and (max-width: 800px) {
     .container {
         width: 78%;
         height: auto;
@@ -214,4 +214,4 @@ body {
         max-height: 10rem;
         padding-right: 5rem;
       }
-      }
+    }
